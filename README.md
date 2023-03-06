@@ -3,7 +3,8 @@
 A simple program to send an integer to a Max msp patch
 
 1. Copy and paste the text from max_patch.txt to an open Max patch.
-2. Run main.py
+2. In the max patch, click on the "port 1001" message while the patch is locked (this is to activate the port).
+3. Run main.py
 
 The integer 1 will be sent to the float box in the Max patch. See code from main.py:
 ```
